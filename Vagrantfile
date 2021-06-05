@@ -5,7 +5,7 @@ machines = {
   "debian"   => {"memory" => "1024", "cpu" => "1", "ip" => "10", "image" => "debian/buster64"},
   "ubuntu"   => {"memory" => "1024", "cpu" => "1", "ip" => "20", "image" => "ubuntu/bionic64"},
   "centos"   => {"memory" => "1024", "cpu" => "1", "ip" => "30", "image" => "centos/7"},
-  "windows"  => {"memory" => "2048", "cpu" => "2", "ip" => "400", "image" => "inclusivedesign/windows10-eval"},
+  "windows"  => {"memory" => "2048", "cpu" => "2", "ip" => "40", "image" => "inclusivedesign/windows10-eval"},
 }
 
 Vagrant.configure("2") do |config|
